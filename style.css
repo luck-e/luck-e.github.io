@@ -1,10 +1,11 @@
+/* i stole this font off of like fontspace or some shit so enable custom fonts at your own risk */
 @font-face {
     font-family: "pixelthingy";
     src: url("pixel.TTF")
 }
 body {
     background-image: url("https://my.mixtape.moe/thwwsf.gif");
-    background-size: 1920px 1080px;
+    background-size: cover;
     background-repeat: repeat;
     background-attachment: fixed;
 }
@@ -44,4 +45,17 @@ a:link, a:visited {
 a:hover, a:active {
     text-decoration: none;
     color: #FFFFFF;
+}
+@keyframes shakey {
+    0%,100%{transform:translate3d(0,0,0);}
+    15%{transform:translate3d(25,30,0);}
+    30%{transform:translate3d(-37,10,0);}
+    50%{transform:translate3d(10,20,0);}
+    60%{transform:translate3d(5,5,0);}
+    75%{transform:translate3d(69,69,0);}
+    80%{transform:translate3d(31,40,0);}
+    90%{transform:translate3d(2,3,0);}
+}
+div.skele {
+    animation:shakey 1000ms linear infinite;
 }
