@@ -1,0 +1,23 @@
+h1, h2, h3, h4, h5, h6 {
+    color: #663300;
+    font-face: Courier New, Courier, monospace;
+}
+p {
+    color: #000000;
+    font-face: Courier New, Courier, monospace;
+}
+body {
+    background-color: #996633;
+}
+a:link, a:visited, a:hover, a:active {
+				text-decoration: none;
+			    }
+a:link {
+    color: #006600;
+}
+a:visited {
+    color: #003300;
+}
+a:hover, a:active {
+	     #FFFFFF;
+	 }
