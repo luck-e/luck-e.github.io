@@ -24,6 +24,6 @@ a:hover, a:active {
 p.quote {
 	color: #663300;
 	font-family: Courier New, Courier, monospace;
-	font-size: 64px;
+	font-size: 600%;
 	font-style: italic;
 }
