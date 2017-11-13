@@ -1,10 +1,10 @@
 h1, h2, h3, h4, h5, h6 {
     color: #663300;
-    font-face: Courier New, Courier, monospace;
+    font-family: Courier New, Courier, monospace;
 }
 p {
     color: #000000;
-    font-face: Courier New, Courier, monospace;
+    font-family: Courier New, Courier, monospace;
 }
 body {
     background-color: #996633;
@@ -21,3 +21,8 @@ a:visited {
 a:hover, a:active {
 	     #FFFFFF;
 	 }
+p.quote {
+	color: #663300;
+	font-family: Courier New, Courier, monospace;
+	size: 64px;
+}
