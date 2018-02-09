@@ -50,10 +50,12 @@ h1 {
 div.contact {
     margin: auto;
     text-align: center;
-    border-style: dashed;
+    border-style: solid;
     border-color: #FACDB9;
-    border-width: 2px;
+    background-color: rgba(0,0,0,0.4);
+    border-width: 1px;
     max-width: 500px;
+
 }
 div.skelepizza {
     margin: auto;
