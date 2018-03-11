@@ -1,0 +1,62 @@
+/* i stole this font off of like fontspace or some shit so enable custom fonts at your own risk */
+@font-face {
+    font-family: "pixel";
+    src: url("pixel.TTF")
+}
+
+/* background via http://glitchblackmusic.tumblr.com/post/163546459091/lord-of-light */
+body {
+    background-color: black;
+    background-image: url('bg.gif');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+p, h1, h2, h3, h4 ,h5, h6 {
+    font-family: pixel;
+    color: #ffffff;
+}
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+
+p.tiny {
+    font-size: 10px;
+    text-align: center;
+}
+
+div.bash {
+    border-style: hidden;
+    background-color: rgba(255, 255, 255, 0.4);
+    color: #ff0000;
+    font-family: monospace;
+    max-width: 512px;
+    margin: auto;
+}
+/* underlined links are gay */
+a:link, a:visited {
+	    color: #ffffff;
+	    text-decoration: none;
+	    font-style: italic;
+	}
+a:hover, a:active {
+	     text-decoration: underline;
+	     font-style: italic;
+	 }
+
+/* sexy tables */
+table {
+    margin: auto;
+}
+table, th, td {
+    border-style: solid;
+    border-color: #ffffff;
+    text-align: center;
+}
+th, td {
+    color: #ffffff;
+    font-family: pixel, monospace;
+}
+th {
+    padding: 5px;
+}
