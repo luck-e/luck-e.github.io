@@ -1,67 +1,62 @@
 /* i stole this font off of like fontspace or some shit so enable custom fonts at your own risk */
 @font-face {
-    font-family: "pixelthingy";
+    font-family: "pixel";
     src: url("pixel.TTF")
 }
+body {
+    background-color: #000000;
+    background-image: url('brain.gif');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25%;
+}
+
+p, h1, h2, h3, h4 ,h5, h6 {
+    font-family: pixel;
+    color: #ffffff;
+}
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+p.tiny {
+    font-size: 10px;
+    text-align: center;
+}
+
+/* underlined links are gay */
 a:link, a:visited {
-	    color: #66ff66;
+	    color: #ffffff;
 	    text-decoration: none;
+	    font-style: italic;
 	}
 a:hover, a:active {
-	     color: white;
-	     text-decoration: none;
+	     text-decoration: underline;
+	     font-style: italic;
 	 }
 
-body {
-    background-image: url('vaporbg.gif');
-    background-size: cover;
-    background-attachment: fixed;
-}
-p {
-    font-family: pixelthingy, monospace;
-    color: white;
-}
-table.right {
-    float: right;
-    margin: auto 4em auto auto;
-    background-color: rgba(0,0,0,0.4);
-    border-style: hidden;
-    max-width: 200px;
-}
-th {
-    font-family: pixelthingy, monospace;
-    font-size: 12px;
-    text-align: left;
-    color: white;
-}
-th.title {
-    font-family: pixelthingy, monospace;
-    font-size: 12px;
-    text-align: center;
-    color: white;
-}
-h1,h2,h3,h4,h5,h6 {
-    font-family: pixelthingy, monospace;
-    color: #FACDB9;
-}
-h1 {
+div.box {
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 1px;
+    margin: auto;
     text-align: center;
 }
 div.contact {
-    margin: auto;
+    float: right;
     text-align: center;
     border-style: solid;
-    border-color: #FACDB9;
-    background-color: rgba(0,0,0,0.4);
     border-width: 1px;
+    border-color: #ffffff;
     max-width: 500px;
-
+    padding: 4px;
 }
-div.skelepizza {
+div.box {
     margin: auto;
     text-align: center;
     border-style: solid;
-    border-width: 2px;
-    border-color: #FACDB9;
-    max-width: 200px;
+    border-width: 1px;
+    border-color: #ffffff;
+    max-width: 400px;
+    padding: 3px;
 }
