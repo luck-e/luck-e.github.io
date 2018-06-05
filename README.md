@@ -3,4 +3,6 @@ Because of [Microsoft acquiring Github this year](https://archive.is/ZVzmz), I h
 <br>
 As for you, Microsoft, I have a message for you as well: https://a.doko.moe/abodce.mp3
 <br>
+![h](microsoft-bad-lol.png)
+<br>
 bye lol
